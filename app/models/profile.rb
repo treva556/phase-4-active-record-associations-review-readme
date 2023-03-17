@@ -1,2 +1,4 @@
 class Profile < ApplicationRecord
-end
+    # add this:
+    belongs_to :author
+  end
